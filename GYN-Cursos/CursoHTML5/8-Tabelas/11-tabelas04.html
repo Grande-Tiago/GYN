@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title> tabela 03 </title>
+    <meta charset="utf-8">
+
+    <style>
+        table, th, td  {border:1px solid #000;}
+        td, td {padding: 7px;}
+
+        .nome {background-color:red;}
+        .email {background-color:green}
+        .telefone {background-color:blue}
+        .cargo {background-color:yellow}
+
+    </style>
+
+
+</head>
+
+<body>
+
+        <h1> tabela 04 </h1>
+        <h2> usando tag colgroup </h2>
+
+        <p>serve para criarmos um grupo de coluna e formata-las individualmente </p>
+       
+<table>
+    <caption> Cadastro </caption>
+
+    <!-- Logo em seguida de caption, usamos a tag <colgroup> para criarmos grupos de coluna e formatar individualmente-->
+    
+        <colgroup>
+        <col class="nome">
+        <col class="email">
+        <col class="telefone">
+        <col class="cargo">
+    </colgroup>
+    
+    <tr>
+        <th> Nome </th>
+        <th> Email </th>
+        <th> Telefone </th>
+        <th> cargo </th>
+    </tr>
+
+<tr>
+    <td> tiago M </td>
+        <td> tt@gmail.com </td>
+        <td> (47)12345678 </td>
+        <td rowspan="3"> desenvolvedor web </td>
+    </tr>
+
+<tr>
+    <td> rodrigo </td>
+    <td> rr@gmail.com </td>
+    <td> (47) 12345678 </td>
+</tr>
+
+
+<tr>
+    <td colspan="3"> tota: 2 </td>
+</tr>
+</table> <br><br>

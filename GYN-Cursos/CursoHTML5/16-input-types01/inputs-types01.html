@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Required , Autofocus e Disabled em Formulários de HTML5 </title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1> Required, Autofocus e Disabled em Formulários de HTML5 </h1>
+
+
+    <form action="#cadastro.php" method="post"> <!--alem do post  tem tbm o get-->
+
+        <fieldset>
+
+            <legend> Informações pessoais </legend> <br>
+
+            Nome:<br>
+            <input type="text" name="Nome" required autofocus> <br>
+            
+            Senha:<br>
+            <input type="password" name="Senha"> <br>
+
+            <input type="submit" name="btn-Enviar" value="enviar">
+        </fieldset>
+    </form>
+
+         <!--required (é para requirir login), autofocus (para ao entrar na web ele ja pedir direto), disabled ( para desabilitar o digitar no login) e maxlength=" " (onde escolhemos um numero q sera o limite maximo de caracteres permitido) -->
+
+    </body>
+
+</html>

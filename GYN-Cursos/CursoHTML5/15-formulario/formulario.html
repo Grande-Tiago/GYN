@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> formularios </title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    
+    <h1> como inserir formulários no HTML </h1>
+
+
+    <form action="#cadastro.php" method="post"> 
+        <!--alem do "post"  tem tbm o "get"-->
+         <fieldset>
+            <legend> Informações pessoais </legend>
+            Nome:<br> <input type="text" name="Nome"> <br>
+
+            Senha:<br> <input type="password" name="Senha"> <br>
+
+            <input type="submit" name="btn-enviar" value="Enviar">
+        </fieldset>
+
+        
+        
+        <!--Explicações rápidas:
+        
+        <form>: cria o formulário.
+
+        action="...": define para onde os dados serão enviados.
+
+        method="post": envia os dados de forma oculta (mais segura que get).
+
+        <fieldset>: agrupa campos do formulário.
+
+        <legend>: legenda do grupo de campos.
+
+        <input type="text">: campo de texto comum.
+
+        <input type="password">: campo de senha (oculta os caracteres).
+
+        <input type="submit">: botão para enviar o formulário.-->
+
+    </form>
+
+
+</body>
+
+</html>

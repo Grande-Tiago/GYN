@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Required , Autofocus e Disabled em Formulários de HTML5 </title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    
+    <h1> Required, Autofocus e Disabled em Formulários de HTML5 </h1>
+
+
+    <form action="cadastro.php" method="post"> <!--alem do post  tem tbm o get-->
+
+        <fieldset>
+
+            <lengend> Informações pessoais </lengend> <br>
+
+            Nome:<br>
+            <input type="text" name="Nome" required autofocus> <br>
+
+            Senha:<br>
+            <input type="password" name="Senha"> <br>
+
+            <!--Mais tipos de: input types:Email, Radio, Checkbox em formularios de HTML -->
+
+            Email <br>
+            <input type="email" name="email" required> <br>
+
+            time: <br>
+            <input type="radio" name="time" value="vasco"> vasco <br>
+            <!-- quando queremos q no site ja venha algo selecionado no checkbox ou radio, usamos um atributo chamado: checked-->
+            <input type="radio" name="time" value="botafogo" checked> botafogo <br>
+            <input type="radio" name="time" value="flumiense"> fluminense <br>
+            <input type="radio" name="time" value="flamengo">flamengo <br>
+
+            Cores:<br>
+            <inptut type="Checkbox" name="Cores" value="Verde"> </inptut> verde <br>
+            <input type="checkbox" name="core" value=" azul" checked> azul <br>
+            <input type="checkbox" name="cores" value="preto"> preto <br>
+            <input type="checkbox" name="cores" value="branco"> branco <br> <br>
+
+            <input type="submit" name="enviar" value="Enviar"> <br>
+
+
+
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

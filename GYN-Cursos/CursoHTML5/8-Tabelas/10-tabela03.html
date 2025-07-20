@@ -1,0 +1,98 @@
+<DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title> tabela 03 Rowspan e colspan </title>
+    <meta charset="utf-8">
+
+    <style>
+        table, th, td  {border:1px solid #000;}
+        td, td {padding: 7px;}
+
+    </style>
+
+
+</head>
+
+<body>
+
+        <h1> Usando Rowspan e colspan </h1>
+        
+        <h3> exemplos do colspan:</h3>
+
+<table>
+    <tr>
+        <th> Nome </th>
+        <th> Email </th>
+        <th> Telefone </th>
+    </tr>
+
+<tr>
+    <td> tiago M </td>
+        <td> tt@gmail.com </td>
+        <td> (47)12345678 </td>
+    </tr>
+
+<tr>
+    <td> rodrigo </td>
+    <td> rr@gmail.com </td>
+    <td> (47) 12345678 </td>
+</tr>
+
+
+<tr>
+    <td colspan="4"> tota: 2 </td>
+</tr>
+</table> <br><br>
+
+<!-- para que uma td ocupe mais de uma coluna, usamos o atributo: colspan="o numero de colunas q desejamos" ( colspan é para horizontal)-->
+
+<!-- para o msm efeito só q na vertical, usamos rowspan="o numero q desejamos"-->
+
+        <h2> segundo exemplo </h2>
+        <h3> exemplo do rowspan </h3>
+
+<table>
+    <tr>
+        <th> Nome </th>
+        <th> Email </th>
+        <th> Telefone </th>
+        <th > Cargo </th>
+</tr>
+
+<tr>
+    <td> tiago M </td>
+        <td> tt@gmail.com </td>
+        <td> (47)12345678 </td>
+        <td rowspan="2"> Desenvolvedor Web </td>
+</tr>
+
+<tr>
+    <td> rodrigo </td>
+    <td> rr@gmail.com </td>
+    <td> (47) 12345678 </td>
+</tr>
+
+<tr>
+    <td colspan="4"> total:2 </td>
+</tr>
+
+</table>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
